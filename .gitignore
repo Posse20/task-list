@@ -1,0 +1,15 @@
+# Ignorar node_modules generales
+node_modules/
+
+# Ignorar dist y build
+dist/
+build/
+
+# Ignorar archivos de entorno
+.env
+
+# Por si las rutas cambian
+task-list-front/node_modules/
+task-list-back/node_modules/
+task-list-front/dist/
+task-list-back/dist/
