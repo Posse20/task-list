@@ -1,26 +1,3 @@
-<div class="d-flex justify-content-center align-items-start min-vh-100 pt-5 bg-light">
-    <div class="card shadow p-4" style="width: 100%; max-width: 600px;">
-        <h2 class="mb-4">Task List</h2>
-
-        <div class="d-flex gap-2 mb-3">
-            <input [(ngModel)]="newTask" class="form-control" placeholder="New Task">
-            <button (click)="addTask()" class="btn btn-primary">Add</button>
-        </div>
-
-        <div class="btn-group mb-3 w-100">
-            <button class="btn btn-outline-secondary" (click)="changeFilter('all')">All</button>
-            <button class="btn btn-outline-success" (click)="changeFilter('completed')">Completed</button>
-            <button class="btn btn-outline-warning" (click)="changeFilter('pending')">Pending</button>
-        </div>
-        
-        <ul class="list-group">
-            <li *ngFor="let task of taskToShow" class="list-group-item d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                    <input type="checkbox" (change)="toggleCompleted(task)" [(ngModel)]="task.completed" class="form-check-input me-2">
-                    <span [class.text-decoration-line-through]="task.completed">{{ task.task_desc }}</span>
-                </div>
-                <button (click)="deleteTask(task)" class="btn btn-sm btn-danger">Delete</button>
-            </li>
-        </ul>
-    </div>
+<div class="block">
+    <div class="block-1"></div>
 </div>

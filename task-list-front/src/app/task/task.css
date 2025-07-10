@@ -1,3 +1,26 @@
-.title{
-    font-family: 'MiFuente'
+.block{
+    display: block;
+    background-color: rgb(24, 10, 119);
+    height: 500px;
+}
+
+.block-1{
+    display: inline-block;
+    background-color: darkgreen;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.parr{
+    display: inline-block;
+    color: white;
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
